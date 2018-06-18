@@ -2,9 +2,9 @@
   "name": "batch-6to4",
   "version": "0.0.1",
   "description": "A script to run 6to4 on any 6to4 IP in a batch of files.",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node script.js"
   },
   "repository": {
     "type": "git",
