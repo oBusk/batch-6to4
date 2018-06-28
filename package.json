@@ -6,7 +6,8 @@
   "scripts": {
     "prep": "mkdirp in out",
     "prestart": "mkdirp in out && rimraf out/*",
-    "start": "node script.js"
+    "start": "node script.js",
+    "clean": "rimraf in/* out/*"
   },
   "repository": {
     "type": "git",
