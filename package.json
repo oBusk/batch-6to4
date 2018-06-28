@@ -4,6 +4,8 @@
   "description": "A script to run 6to4 on any 6to4 IP in a batch of files.",
   "main": "script.js",
   "scripts": {
+    "prep": "mkdirp in out",
+    "prestart": "mkdirp in out && rimraf out/*",
     "start": "node script.js"
   },
   "repository": {
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/oBusk/batch-6to4/issues"
   },
-  "homepage": "https://github.com/oBusk/batch-6to4#readme"
+  "homepage": "https://github.com/oBusk/batch-6to4#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  }
 }
