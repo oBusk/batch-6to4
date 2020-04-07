@@ -1,6 +1,6 @@
 {
   "name": "batch-6to4",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A script to run 6to4 on any 6to4 IP in a batch of files.",
   "main": "script.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/oBusk/batch-6to4#readme",
   "dependencies": {
-    "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.2"
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
   }
 }
