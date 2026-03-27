@@ -27,6 +27,6 @@
   "homepage": "https://github.com/oBusk/batch-6to4#readme",
   "dependencies": {
     "mkdirp": "^1.0.4",
-    "rimraf": "^3.0.2"
+    "rimraf": "^6.1.3"
   }
 }
